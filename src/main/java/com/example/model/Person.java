@@ -31,6 +31,13 @@ public class Person {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+      public String getMiddleName() {
+        return lastName;
+    }
+
+    public void setMiddleName(String lastName) {
+        this.lastName = lastName;
+    }
 
     public String getLastName() {
         return lastName;

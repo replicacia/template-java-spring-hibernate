@@ -32,11 +32,11 @@ public class Person {
         this.firstName = firstName;
     }
       public String getMiddleName() {
-        return lastName;
+        return MiddleName;
     }
 
     public void setMiddleName(String lastName) {
-        this.lastName = lastName;
+        this.MiddleName = MiddleName;
     }
 
     public String getLastName() {

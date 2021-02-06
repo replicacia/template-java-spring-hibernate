@@ -39,5 +39,12 @@ public class Person {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+     public String getMidName() {
+        return lastName;
+    }
+
+    public void setMidName(String lastName) {
+        this.lastName = lastName;
+    }
 
 }
